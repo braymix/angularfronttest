@@ -48,6 +48,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'provapanarottoangular'
-        slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_9a08a82305c14f488d49b7f5225a54a1 }}
         package: ./dist/secondaSimulazioneFrontEnd
